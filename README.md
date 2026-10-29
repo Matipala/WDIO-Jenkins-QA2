@@ -1,6 +1,6 @@
 # WDIO + Allure + Jenkins (QA2)
 
-Proyecto mínimo para ejecutar dos pruebas E2E contra https://example.com con Chrome en modo headless.
+Proyecto mínimo para ejecutar dos pruebas E2E contra https://youtube.com con Chrome.
 
 ## Requisitos
 - Node.js LTS compatible con WebdriverIO 10 (>=22.19)
@@ -21,5 +21,5 @@ El `Jenkinsfile` usa los comandos Unix/macOS (`sh`) y publica los resultados med
 
 ## Notas
 - El proyecto no ha sido ejecutado en este entorno de generación: ejecutar localmente antes de subirlo.
-- `example.com` necesita conectividad y Chrome debe poder arrancar en el agente Jenkins.
+- `youtube.com` necesita conectividad y Chrome debe poder arrancar en el agente Jenkins.
 - No subir secretos ni `node_modules` a Git.
